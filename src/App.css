@@ -1,16 +1,36 @@
-.App {
-  text-align: center;
+.App{
+  display:flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: flex-start;
+  margin: 2%;
 }
 
 .container {
-  background-color: #ffffff;
-  min-height: 100vh;
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row; 
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 60%;
+  margin-left: 5%;
+  border: black solid 4px;
+}
+
+
+.container img{
+  width: 36%;
+  height: 100%;
+  margin-left: 2%;
+  border: rgb(175, 19, 19) solid 1px;
+}
+
+.container-title {
+  margin-left: 30%;
+}
+
+.container-description {
+  margin-left: 30%;
+  align-items: flex-start;
 }
 
 
